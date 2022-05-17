@@ -1,0 +1,7 @@
+1. src/main/java
+•	HBM.pages - Create the .java class & enter all the events like Enter value, select from dropdown, click on button Etc.
+•	HBM.teststeps.data - Create new .java class file & add the code for data which is provided in feature file (Eg: <First Name> <Last Name> and under examples section)
+
+2. src/test/java
+•	HBM.teststeps.runner - Add the Annotation under tags Section
+•	HBM.teststeps.teststeps - Create a Java class file & define All steps (@Given, @And, @When, @Then) which are defined in feature file
